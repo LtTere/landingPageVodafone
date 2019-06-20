@@ -29,6 +29,14 @@
   .title__main {
     font-size: 1.875rem;
   }
+
+  .card__slider__item--2,
+  .card__slider__item {
+    display: block;
+    border: 1px solid #ffffff;
+    width: 261px;
+    margin: 1rem;
+  }
   .list {
     display: flex;
     flex-wrap: wrap;

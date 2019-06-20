@@ -55,25 +55,56 @@
       </div>
     </header>
     <main>
-      <section>
+      <section class="card__section">
         <h3 class="title__main">
           Descubre por qué TIDAL es mucho más que una plataforma de música
         </h3>
-        <div class="card__wrapper">
-          <img
-            class="card__img"
-            src="css/ui-img/img-ficha-1-legacy-tidal-partis.jpg"
-            srcset="
-              css/ui-img/tidal-partis@2x.png 2x,
-              css/ui-img/tidal-partis@3x.png 3x
-            "
-            alt="Imagen de Estreno en Exclusiva"
-          />
-          <h4 class="card__title">Estrenos en Exclusiva</h4>
-          <p class="card__text">
-            TIDAL ha estrenado en exclusiva los mejores álbumes de los dos
-            últimos años y siempre con la mejor calidad de sonido.
-          </p>
+        <div class="card__slider__wrapper">
+          <ul class="card__slider">
+            <li class="card__slider__item">
+              <img
+                class="card__slider__img"
+                src="css/ui-img/img-ficha-1-legacy-tidal-partis.jpg"
+                alt="Imagen de Estreno en Exclusiva"
+                title="Imagen de Estreno en Exclusiva"
+              />
+              <h4 class="card__slider__title">Estrenos en Exclusiva</h4>
+              <p class="card__slider__text">
+                TIDAL ha estrenado en exclusiva los mejores álbumes de los dos
+                últimos años y siempre con la mejor calidad de sonido.
+              </p>
+            </li>
+
+            <li class="card__slider__item--2">
+              <img
+                class="card__slider__img"
+                src="css/ui-img/captura-de-pantalla-2018-02-14-a-las-11-47-23.jpg"
+                alt="Imagen de el mejor contenido audiovisual"
+                title="Imagen de el mejor contenido audiovisual"
+              />
+              <h4 class="card__slider__title">
+                El mejor contenido audiovisual
+              </h4>
+              <p class="card__slider__text">
+                Más de 200 mil videos musicales en alta definición, streaming de
+                conciertos en directo y series originales.
+              </p>
+            </li>
+
+            <li class="card__slider__item--3">
+              <img
+                class="card__slider__img"
+                src="css/ui-img/img-ficha-2-legacy-tidal-partis.jpg"
+                alt="Imagen de mucho más que música"
+                title="Imagen de mucho más que música"
+              />
+              <h4 class="card__slider__title">Mucho más que música</h4>
+              <p class="card__slider__text">
+                Recomendaciones de conciertos según tus gustos y localización
+                geográfica. Gana entradas para tus conciertos preferidos.
+              </p>
+            </li>
+          </ul>
         </div>
       </section>
 
@@ -154,5 +185,12 @@
         </ul>
       </section>
     </main>
+    <multi-carousel>
+      <div>Content of slide 1</div>
+      <div>Content of slide 2</div>
+      <div>Content of slide 3</div>
+      ...
+      <div>Content of slide N</div>
+    </multi-carousel>
   </body>
 </html>

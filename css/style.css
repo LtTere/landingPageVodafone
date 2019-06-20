@@ -72,22 +72,32 @@ main {
   font-family: "VodafoneLt";
   padding: 2.04375rem 0 1.625rem;
 }
-
-.card__wrapper {
-  border: 1px solid #ffffff;
+.card__slider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.card__img {
+.card__slider__item {
+  border: 1px solid #ffffff;
+  width: 261px;
+}
+.card__slider__item--2,
+.card__slider__item--3 {
+  display: none;
+}
+
+.card__slider__img {
   display: block;
   width: 100%;
   height: auto;
 }
-.card__title {
+.card__slider__title {
   font-size: 1.25rem;
   padding: 1.625rem 0 1rem;
   font-weight: bold;
 }
-.card__text {
+.card__slider__text {
   padding: 0 1.3125rem 1.65rem;
 }
 .list__item {

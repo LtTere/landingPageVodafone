@@ -13,6 +13,11 @@
     font-size: 2.25rem;
     padding: 3.1125rem 0 4rem;
   }
+  .card__slider__item--3 {
+    display: block;
+    border: 1px solid #ffffff;
+    width: 261px;
+  }
   .list__item:last-child {
     padding-bottom: 3.5rem;
   }
