@@ -1,0 +1,42 @@
+@media all and (min-width: 768px) {
+  .main__nav {
+    height: 4.4375rem;
+  }
+  .hero__logo__img {
+    width: 114px;
+    padding: 2rem 0;
+  }
+  .hero__text__subtitle {
+    font-size: 2.25rem;
+  }
+  .hero__text {
+    padding: 0.5rem 4.625rem;
+  }
+
+  .hero__wrapper {
+    font-size: 1.625rem;
+    font-family: "VodafoneLt";
+  }
+  .hero__btn {
+    font-size: 1.125rem;
+    width: 5.5625rem;
+    height: 2.8125rem;
+    margin-bottom: 3rem;
+  }
+  main {
+    padding: 0 4.625rem;
+  }
+  .title__main {
+    font-size: 1.875rem;
+  }
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .list__item {
+    width: 49%;
+  }
+  .list__item:last-child {
+    padding-bottom: 2.5rem;
+  }
+}

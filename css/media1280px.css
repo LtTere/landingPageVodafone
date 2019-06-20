@@ -1,0 +1,19 @@
+@media all and (min-width: 1280px) {
+  .hero__logo__img {
+    padding: 2.8125rem 0;
+    width: 9.46875rem;
+  }
+  .hero__wrapper {
+    font-size: 1.875rem;
+  }
+  .hero__text__subtitle {
+    font-size: 2.75rem;
+  }
+  .title__main {
+    font-size: 2.25rem;
+    padding: 3.1125rem 0 4rem;
+  }
+  .list__item:last-child {
+    padding-bottom: 3.5rem;
+  }
+}

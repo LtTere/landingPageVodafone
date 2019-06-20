@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "VodafoneLt";
+  src: url("./fonts/VodafoneLt-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "VodafoneRg";
+  src: url("./fonts/vodafone-regular.woff") format("woff");
+}
+
+body {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.main__nav {
+  height: 2.25rem;
+}
+
+.hero__wrapper {
+  width: 100vw;
+  height: auto;
+  background-image: url(../css/ui-img/rectangle-3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "VodafoneRg";
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.hero__logo__img {
+  padding: 2rem 0 1rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.hero__text__subtitle {
+  line-height: 1.07;
+  padding-bottom: 1rem;
+}
+
+.hero__text {
+  padding: 0.5rem 0.625rem;
+}
+
+.hero__text--up {
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.hero__btn {
+  width: 18.75rem;
+  height: 2.125rem;
+  background-color: #e60000;
+  border: none;
+  color: #ffffff;
+  font-size: 1.05rem;
+  margin-bottom: 2rem;
+}
+
+main {
+  height: auto;
+  background-color: #333333;
+  padding: 0 20px;
+  text-align: center;
+  font-family: "VodafoneRg";
+}
+
+.title__main {
+  font-size: 1.625rem;
+  font-family: "VodafoneLt";
+  padding: 2.04375rem 0 1.625rem;
+}
+
+.card__wrapper {
+  border: 1px solid #ffffff;
+}
+
+.card__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.card__title {
+  font-size: 1.25rem;
+  padding: 1.625rem 0 1rem;
+  font-weight: bold;
+}
+.card__text {
+  padding: 0 1.3125rem 1.65rem;
+}
+.list__item {
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 0.5rem;
+}
+
+.list__item__up {
+  font-weight: bold;
+}
+.list__img {
+  padding-right: 0.5rem;
+}
