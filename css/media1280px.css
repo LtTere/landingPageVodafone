@@ -18,6 +18,9 @@
     border: 1px solid #ffffff;
     width: 261px;
   }
+  .list {
+    width: 70%;
+  }
   .list__item:last-child {
     padding-bottom: 3.5rem;
   }
