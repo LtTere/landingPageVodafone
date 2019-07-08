@@ -18,7 +18,6 @@ body {
 }
 
 .hero__wrapper {
-  width: 100vw;
   height: auto;
   background-image: url(../css/ui-img/rectangle-3.jpg);
   background-size: cover;

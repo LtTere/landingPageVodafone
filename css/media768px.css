@@ -38,8 +38,12 @@
     margin: 1rem;
   }
   .list {
+    margin: 0 auto;
+    line-height: 1.7;
+    width: 88%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .list__item {
     width: 49%;
